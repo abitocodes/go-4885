@@ -4,3 +4,15 @@
 13:48:29.542819 version@stat F·[] S·0B[] Sc·[]
 13:48:29.551310 db@janitor F·2 G·0
 13:48:29.551591 db@open done T·10.567041ms
+=============== Apr 4, 2024 (KST) ===============
+14:23:12.098288 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:23:12.098687 version@stat F·[] S·0B[] Sc·[]
+14:23:12.098841 db@open opening
+14:23:12.099088 journal@recovery F·1
+14:23:12.100072 journal@recovery recovering @1
+14:23:12.115369 memdb@flush created L0@2 N·11212 S·274KiB "loc..seq,v4":"version,v1"
+14:23:12.115885 version@stat F·[1] S·274KiB[274KiB] Sc·[0.25]
+14:23:12.142414 db@janitor F·3 G·0
+14:23:12.142453 db@open done T·43.601291ms
+14:25:58.350868 db@close closing
+14:25:58.351554 db@close done T·683.166µs
